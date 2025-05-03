@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FLYSKY Education Consultancy - Local Admissions & Study Abroad Services">
+  <title>FLYSKY Education Consultancy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e6f4ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #00aaff;
+      color: white;
+      padding: 1rem 2rem;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img.logo {
+      height: 50px;
+      margin-right: 1rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .register-button {
+      background-color: #ffffff;
+      color: #00aaff;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 5rem 2rem 2rem;
+    }
+
+    .highlight {
+      background-color: #e0f7ff;
+      border-left: 5px solid #00aaff;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    section img {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      display: block;
+      margin: 1rem auto;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #00aaff;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .footer-contact p {
+      margin: 0.5rem 0;
+    }
+
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .placeholder {
+      padding: 2rem;
+      border: 2px dashed #00aaff;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav {
+        margin-top: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div style="display: flex; align-items: center;">
+      <img src="images/logo.png" alt="FLYSKY Logo" class="logo">
+      <strong>FLYSKY Education Consultancy</strong>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#local">Local Admissions</a>
+      <a href="#abroad">Study Abroad</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="https://wa.me/919493983690?text=Hello%2C%20I%20would%20like%20to%20register%20with%20FLYSKY%20Education." class="register-button">Register Now</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to FLYSKY Education Consultancy</h2>
+    <p>Your trusted partner for local and international education guidance.</p>
+    <img src="images/banner1.png" alt="FLYSKY Banner">
+  </section>
+
+  <section id="local">
+    <h2>Local Admissions - Live Now</h2>
+    <div class="highlight">
+      <p>FLYSKY Education provides expert guidance and direct admissions into top colleges for <strong>Intermediate, Diploma, Degree, B.Tech, Agriculture, Pharmacy, Nursing, MBBS</strong> and more — at low fees. We ensure smooth admission in reputed institutions across Andhra Pradesh.</p>
+    </div>
+    <img src="images/local-admissions2.png" alt="Local Admissions">
+  </section>
+
+  <section id="abroad">
+    <h2>Study Abroad</h2>
+    <p>FLYSKY Abroad helps students fulfill their international education dreams. From application to visa process, we guide you every step of the way for a smooth study abroad experience.</p>
+    <div class="highlight"><strong>Coming Soon – Stay Tuned!</strong></div>
+    <img src="images/study-abroad3.png" alt="Study Abroad">
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="placeholder">[Gallery Images Placeholder]</div>
+  </section>
+
+  <section id="reviews">
+    <h2>Student Testimonials</h2>
+    <div class="placeholder">[Student Reviews Placeholder]</div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="footer-contact">
+      <p><i class="fas fa-map-marker-alt"></i> Address: 13/1, Arundalpet, Guntur, Andhra Pradesh - 522002</p>
+      <p><i class="fas fa-phone"></i> Phone/WhatsApp: +91 9493 983690, +91 85005 83690</p>
+      <p><i class="fas fa-envelope"></i> Email: flysky.education@gmail.com | flysky.abroad@gmail.com</p>
+      <p><i class="fas fa-globe"></i> Website: <a href="http://www.flysky.co.in" style="color: white;">www.flysky.co.in</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FLYSKY Education Consultancy. All rights reserved.</p>
+    <div>
+      <a href="#" style="color:white; margin: 0 10px;"><i class="fab fa-facebook"></i></a>
+      <a href="#" style="color:white; margin: 0 10px;"><i class="fab fa-instagram"></i></a>
+      <a href="#" style="color:white; margin: 0 10px;"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/919493983690" class="floating-whatsapp" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</body>
+
+</html>
